@@ -50,6 +50,24 @@ print(tips.describe())
 
 print('=' * 50)
 
+print('4. LINHAS DUPLICADAS')
+
+print('=' * 50)
+
+print(f'Número de linhas duplicadas: {tips.duplicated().sum()}')
+
+print()
+
+print('=' * 50)
+
+print('4. VALORES ÚNICOS EM CADA COLUNA CATEGÓRICA')
+
+print('=' * 50)
+
+for col in['sex', 'smoker', 'day', 'time']:
+    print(f'{col}: {tips[col].unique()}')
+
+
 
 	
 
