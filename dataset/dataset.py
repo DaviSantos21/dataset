@@ -40,6 +40,17 @@ print(tips.isnull().sum())
 
 print()
 
+print('=' * 50)
+
+print('3. ESTATÍSTICAS DESCRITIVAS (colunas numéricas)')
+
+print('=' * 50)
+
+print(tips.describe())
+
+print('=' * 50)
+
+
 	
 
 
