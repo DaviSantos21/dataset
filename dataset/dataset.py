@@ -67,6 +67,24 @@ print('=' * 50)
 for col in['sex', 'smoker', 'day', 'time']:
     print(f'{col}: {tips[col].unique()}')
 
+print()
+
+print('=' * 50)
+
+print('5. VALORES MÍNIMOS (checar números negativos estranhos)')
+
+print('=' * 50)
+
+print(tips[['total_bill', 'tip', 'size']].min())
+
+tips = pd.read_csv('./csv/tips.csv')  
+
+duplicated = tips[tips.duplicated(keep=False)]
+
+print('Linhas envolvidas na duplicata: ')
+
+print(duplicated)
+
 
 
 	
