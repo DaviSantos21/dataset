@@ -27,6 +27,19 @@ print('1. INFO GERAL (tipos de dados)')
 print('=' * 50)
 
 tips.info()
+
+print()
+
+print('=' * 50)
+
+print('2. VALORES NULOS POR COLUNA')
+
+print('=' * 50)
+
+print(tips.isnull().sum())
+
+print()
+
 	
 
 
