@@ -14,10 +14,19 @@ print(tips.head())
 
 print('=' * 50)
 
-
 print()
 
 print('Últimas 5 linhas')
 
 print(tips.tail())
+
+print('=' * 50)
+
+print('1. INFO GERAL (tipos de dados)')
+
+print('=' * 50)
+
+tips.info()
+	
+
 
